@@ -22,7 +22,7 @@
         }
         h1{
 /*             height: 100%; */
-            font-size:6.5rem;
+            font-size:8.5rem;
         }
     </style>
 </head>
@@ -40,11 +40,11 @@
         h1.textContent = "YES!";
     } else {
         h1.textContent = "No :(";
-        const h2 = document.createElement("h2");
+        const h4 = document.createElement("h4");
         (5 - today) === 1 ? 
-            h2.textContent = "Only 1 more day!" : 
-            h2.textContent = `Only ${5 - today} day(s) away`;
-        h1.insertAdjacentElement("afterend", h2);
+            h4.textContent = "Only 1 more day!" : 
+            h4.textContent = `Only ${5 - today} day(s) away`;
+        h1.insertAdjacentElement("afterend", h4);
     }
 </script>
 
