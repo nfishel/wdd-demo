@@ -41,7 +41,9 @@
     } else {
         h1.textContent = "No :(";
         const h2 = document.createElement("h2");
-        h2.textContent = `Only ${5 - today} day(s) away`;
+        (5 - today) === 1 ? 
+            h2.textContent = "Only 1 more day!" : 
+            h2.textContent = `Only ${5 - today} day(s) away`;
         h1.insertAdjacentElement("afterend", h2);
     }
 </script>
