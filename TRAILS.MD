@@ -1,9 +1,7 @@
 | trail_id |      trail_name       |      city      | state | distance |                         description                          | skill_level |
 |----------|-----------------------|----------------|-------|----------|--------------------------------------------------------------|-------------|
-| 1        | Pine Loop Trail       | Boulder        | CO    | 3.5      | A scenic loop through dense pine forests with mountain views | Moderate    |
-|          |                       |                |       |          | .                                                            |             |
-| 2        | Maple Ridge Path      | Asheville      | NC    | 2.1      | Gentle trail with vibrant maple trees, ideal for a short str | Easy        |
-|          |                       |                |       |          | oll.                                                         |             |
+| 1        | Pine Loop Trail       | Boulder        | CO    | 3.5      | A scenic loop through dense pine forests with mountain views.| Moderate    |
+| 2        | Maple Ridge Path      | Asheville      | NC    | 2.1      | Gentle trail with vibrant maple trees, ideal for a short stroll. | Easy        |
 | 3        | Canyon Crest Trail    | Sedona         | AZ    | 4.7      | Challenging climb with panoramic canyon vistas and red rock  | Hard        |
 |          |                       |                |       |          | formations.                                                  |             |
 | 4        | Bear Hollow Trail     | Bozeman        | MT    | 5.2      | Winding trail through forested valleys with wildlife sightin | Moderate    |
